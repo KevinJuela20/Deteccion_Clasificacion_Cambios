@@ -15,6 +15,7 @@ Fue reentrenada con un dataset creado manualmente. El repositorio es el siguient
 Dentro del directorio BAN, es necesario crear una carpeta 'checkpoint' y colocar el modelo reentrenado 'iter_4000.pth'. El modelo se encuentra es el siguiente link: ([iter_4000.pth],https://drive.google.com/file/d/1D1aT5CGi5ZTaES0XjWbbCULFZvOQ_YAe/view?usp=drive_link) 
 
 En resumen se debe crear:
+```bash
 -checkpoint
     --iter_4000.pth
 -data  
@@ -24,15 +25,16 @@ En resumen se debe crear:
             ----B
             ----label
         ---label2
-
+```
 ## Visualizador
 Sitio web desarrollado por Streamlit.io. Toda la lógica está creada en lenguaje de Pyhton.
 
 ### Agregar
 Crear el siguiente directorio:
+```bash
 -Modelos
     --ResNet152V2.h5
-
+```
 El modelo preentrenado lo puede descargar de: ([ResNet152V2],https://drive.google.com/file/d/1MkThCHmPvfXqnspdWFh64O1NSHqF5eDf/view?usp=drive_link)
 
 # Red ResNet152V2
