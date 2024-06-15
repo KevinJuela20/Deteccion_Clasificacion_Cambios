@@ -9,7 +9,7 @@ El sistema esta compuesto por una red profunda BAN, encargada para la detección
 El conjunto de datos almacenado en el sitio web Kaggle [DCC-San-Juan-Bosco](https://kaggle.com/datasets/23c6ddb51029b5dc20c5291d958467f1524cf2abc782cbc8b1f4f965eed89dda)
 
 ## Directorio BAN 
-Fue reentrenada con un dataset creado manualmente. El repositorio es el siguiente: ([BAN]https://github.com/likyoo/BAN?tab=readme-ov-file), allí se detalla la forma en como clonar el repositorio para su uso y como instalar el directorio open-cd.
+Fue reentrenada con un dataset creado manualmente. El repositorio es el siguiente: [BAN](https://github.com/likyoo/BAN?tab=readme-ov-file), allí se detalla la forma en como clonar el repositorio para su uso y como instalar el directorio open-cd.
 
 ### Agregar
 Dentro del directorio BAN, es necesario crear una carpeta 'checkpoint' y colocar el modelo reentrenado 'iter_4000.pth'. El modelo se encuentra es el siguiente link: [iter_4000.pth](https://drive.google.com/file/d/1D1aT5CGi5ZTaES0XjWbbCULFZvOQ_YAe/view?usp=drive_link) 
